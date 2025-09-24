@@ -1,0 +1,47 @@
+  body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Estiliza o contêiner dos inputs e o Canvas para centralizar */
+        #container {
+            width: 400px;
+            /* Largura igual à do canvas */
+            margin: 20px auto;
+        }
+
+        #colorCanvas {
+            border: 1px solid black;
+        }
+
+        .slider-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 5px 0;
+        }
+
+        .slider-group label {
+            width: 30px;
+            /* Largura fixa para as letras R, G, B */
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .slider-group input[type="range"] {
+            flex-grow: 1;
+            margin: 0 10px;
+        }
+
+        /* Cores diferentes para os trackbars ajudam na identificação */
+        #rangeR {
+            accent-color: red;
+        }
+
+        #rangeG {
+            accent-color: green;
+        }
+
+        #rangeB {
+            accent-color: blue;
+        }
